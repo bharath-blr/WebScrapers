@@ -1,4 +1,4 @@
-# simpleWebScraper
+# WebPageScrapers
 A Python3 script that scrapes all the href links from an URL
 
 Dependency modules:
