@@ -3,7 +3,7 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://%s" % sys.argv[1]
+url = sys.argv[1]
 print ("Scraping following webpage: %s" % url)
 try:
     response = requests.get(url)
