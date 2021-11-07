@@ -7,7 +7,8 @@
 
 # Usage with examples:
 Example1: Scraping https webpage: 
-  python scrapeAllHyperlinksFromWebpage.py https://www.yahoo.co.in
+  "python scrapeAllHyperlinksFromWebpage.py https://www.yahoo.co.in"
+  
   Scraping following webpage: https://www.yahoo.co.in
   link: https://login.yahoo.com?.src=search&.intl=in&.lang=en-IN&.done=https%3A%2F%2Fin.search.yahoo.com%2F%3Ffr2%3Dinr&pspid=2114723002&activity=header-signin
   link: https://in.search.yahoo.com/search?ei=UTF-8&fr2=p%3As%2Cv%3Asfp%2Cm%3Afeaturebar&p=coronavirus
@@ -31,7 +32,8 @@ Example1: Scraping https webpage:
   Total links scraped from https://www.yahoo.co.in are: 19
 
 Example2: Scraping http webpage: 
-  python scrapeAllHyperlinksFromWebpage.py http://www.webscantest.com/
+  "python scrapeAllHyperlinksFromWebpage.py http://www.webscantest.com/"
+  
   Scraping following webpage: http://www.webscantest.com/
   link: /login.php
   link: https://www.rapid7.com/products/appspider/
